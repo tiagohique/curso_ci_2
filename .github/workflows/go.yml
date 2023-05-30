@@ -10,11 +10,11 @@ jobs:
 
   test:
     runs-on: ${{ matrix.os }}
-    env: 
+    env:
       HOST: localhost
       PORT: 5432
       USER: root
-      PWD: root
+      PASSWORD: root
       DBNAME: root
     strategy:
       matrix:
